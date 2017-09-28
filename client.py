@@ -2,8 +2,16 @@ import xmlrpc.client
 import socket
 
 with xmlrpc.client.ServerProxy("http://localhost:8000/") as proxy:
-	#print('Hello '+ proxy.getServerName() + 'agin')
+	#print('Hello '+ proxy.getServerName() + 'lewis')
 
+	print("\n|-------------------------------------------|")
+	print("\n| REGISTRATION NUMBER |        NAME         |")
+	print("\n|-------------------------------------------|")
+	print("\n| P15/1718/2016       |   Mercy Kwambai     |")
+	print("\n| P15/36076/2015      |   Lewis Munyi       |")
+	print("\n| P15/1726/2016       |   Elvis Agin        |")
+	print("\n|-------------------------------------------|\n\n\n\n")
+	print("\n|-------------------------------------------|")
 	print("\n| DESCRIPTION                               |")
 	print("\n|-------------------------------------------|")
 	print("\n|This is a python program that asks for user|")
