@@ -1,6 +1,4 @@
-#P15/36076/2015
-#Lewis Munyi
-#Assignment 1
+
 from __future__ import unicode_literals
 from xmlrpc.server import SimpleXMLRPCServer
 
